@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+main {
+  display: flex;
+}
+
+main .left {
+  padding: 8px;
+  width: 200px;
+}
+
+main .right {
+  width: 800px;
+  padding: 8px;
+  overflow-x: auto;
+}
+@media screen and (max-width: 1050px) {
+  main .right {
+    width: 500px;
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 750px) { 
+  main {
+    flex-direction: column;
+  }
+  main .left { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  main .right {
+    width: 100%;
+  }
+}

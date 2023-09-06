@@ -1,0 +1,27 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 12px;
+}
+
+.primary {
+  background-color: #191919;
+  color: white;
+}
+.icon {
+  padding: 12px;
+  border-radius: 100%;
+}
+
+.success {
+  background-color: green;
+  color: white;
+}
+
+.danger {
+  background-color: red;
+  color: white;
+}

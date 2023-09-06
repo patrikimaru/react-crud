@@ -1,0 +1,7 @@
+.StudentForm form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  gap: 10px;
+}
